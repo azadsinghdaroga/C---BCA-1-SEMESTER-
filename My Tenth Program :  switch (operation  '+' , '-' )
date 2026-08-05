@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    int num1 = 10 ;
+    int num2 = 5  ;
+    char op = '+' ;
+
+    switch (op) {
+        case '+':
+        printf("RESULT :%d\n", num1+num2 );
+        break;
+
+        case '-':
+        printf("RESULT : %d\n" , num1-num2 );
+        break;
+
+        default:
+        printf("invalid operater \n");
+
+    }
+
+    return 0;
+
+}
