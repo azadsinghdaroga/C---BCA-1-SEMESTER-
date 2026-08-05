@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int no;
+
+    printf("entered any value between 1-100 \n");
+    scanf("%d", &no);
+
+    printf( "you entered value is %d",no);
+
+    return 0;
+}
