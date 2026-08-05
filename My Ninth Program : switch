@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int choice = 2;
+
+    switch (choice) {
+        case 1:
+        printf("you chose samosa \n");
+        break;
+
+        case 2:
+        printf("you chose kachori \n");
+        break;
+
+        default:
+        printf("wrong option \n");
+    }
+    return 0;
+}
