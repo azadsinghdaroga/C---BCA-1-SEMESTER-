@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{ 
+    int no = 3;
+
+    printf("the value of no is %d \n", no);
+
+return 0;
+}
